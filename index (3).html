@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Free Exam Website</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+body{
+  margin:0;
+  font-family:Arial, sans-serif;
+  background:#f4f6f8;
+}
+header{
+  background:#1e88e5;
+  color:white;
+  padding:20px;
+  text-align:center;
+}
+nav{
+  background:#0d47a1;
+  padding:10px;
+  text-align:center;
+  position:sticky;
+  top:0;
+}
+nav a{
+  color:white;
+  margin:0 15px;
+  text-decoration:none;
+  font-weight:bold;
+}
+section{
+  padding:30px;
+}
+.box{
+  background:white;
+  padding:20px;
+  margin:20px auto;
+  max-width:900px;
+  border-radius:10px;
+  box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Exam Cards */
+.exam-card{
+  margin-bottom:20px;
+  padding:20px;
+  border-radius:12px;
+  background:#fff;
+  box-shadow:0 6px 15px rgba(0,0,0,0.1);
+}
+.exam-card h3{
+  color:#1e88e5;
+}
+.exam-card a{
+  display:inline-block;
+  margin:6px 8px 6px 0;
+  padding:8px 14px;
+  background:#1e88e5;
+  color:white;
+  border-radius:6px;
+  text-decoration:none;
+  font-size:14px;
+}
+.exam-card a.pdf{
+  background:#43a047;
+}
+.exam-card a:hover{
+  opacity:0.9;
+}
+
+footer{
+  background:#1e88e5;
+  color:white;
+  text-align:center;
+  padding:10px;
+}
+</style>
+</head>
+
+<body>
+
+<header id="home">
+<h1>Competitive Exam Portal</h1>
+<p>Notifications • PYQ PDFs • Free Study</p>
+</header>
+
+<nav>
+<a href="#home">Home</a>
+<a href="#about">About</a>
+<a href="#exams">Exams</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<section id="about" class="box">
+<h2>About</h2>
+<p>Is website par sabhi competitive exams ke latest notifications aur PYQ PDFs free me milte hain.</p>
+</section>
+
+<section id="exams" class="box">
+<h2 style="text-align:center;">📢 Exams & PYQ PDFs</h2>
+
+<div class="exam-card">
+<h3>🔔 SSC (CGL, CHSL, MTS)</h3>
+<a href="https://ssc.nic.in" target="_blank">Official Notification</a>
+<a href="pdfs/ssc-cgl-pyq.pdf" class="pdf" download>CGL PYQ PDF</a>
+<a href="pdfs/ssc-chsl-pyq.pdf" class="pdf" download>CHSL PYQ PDF</a>
+</div>
+
+<div class="exam-card">
+<h3>🏦 Banking (IBPS / SBI)</h3>
+<a href="https://www.ibps.in" target="_blank">IBPS</a>
+<a href="https://sbi.co.in/web/careers" target="_blank">SBI Careers</a>
+<a href="pdfs/bank-po-pyq.pdf" class="pdf" download>Bank PO PYQ</a>
+</div>
+
+<div class="exam-card">
+<h3>🚆 Railway (NTPC / Group-D)</h3>
+<a href="https://railwayrecruitment.gov.in" target="_blank">RRB Official</a>
+<a href="pdfs/rrb-ntpc-pyq.pdf" class="pdf" download>NTPC PYQ</a>
+<a href="pdfs/group-d-pyq.pdf" class="pdf" download>Group-D PYQ</a>
+</div>
+
+<div class="exam-card">
+<h3>📚 Teaching (CTET)</h3>
+<a href="https://ctet.nic.in" target="_blank">CTET Notification</a>
+<a href="pdfs/ctet-pyq.pdf" class="pdf" download>CTET PYQ</a>
+</div>
+
+<div class="exam-card">
+<h3>🏛 Bihar Exams</h3>
+<a href="https://bssc.bihar.gov.in" target="_blank">Bihar SSC</a>
+<a href="pdfs/bihar-ssc-pyq.pdf" class="pdf" download>Bihar SSC PYQ</a>
+</div>
+
+</section>
+
+<section id="contact" class="box">
+<h2>Contact</h2>
+<p>
+📧 <a href="mailto:example@gmail.com">example@gmail.com</a><br><br>
+📱 <a href="https://wa.me/9113747869" target="_blank">WhatsApp</a>
+</p>
+</section>
+
+<footer>
+© 2025 Free Exam Website
+</footer>
+
+</body>
+</html>
